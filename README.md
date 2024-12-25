@@ -9,5 +9,5 @@ I'm a student. At a learning stage and want to learn more and more. want to know
 
 
 ## 🛠 Skills
-This section only consist of C language based program.{Python-language}
+This section only consist of Python language based program.{Python-language}
 
