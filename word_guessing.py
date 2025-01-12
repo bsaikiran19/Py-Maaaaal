@@ -1,17 +1,17 @@
-import random #random word generator
+import random#random word generator
 
 name = input("What is your name? ")
 
-print("Good Luck ! ", name)
+print("All the best bhidu ! ", name)
 
-words = ['Alpha', 'Achutiya', 'Maths', 'carbon',
-         'python', 'hero', 'player', 'pookies',
-         'reverse', 'water', 'board', 'handsome']
+words = ['Body', 'purse', 'tree', 'hero',
+         'pranjal', 'gaurav', 'player', 'kiran',
+         'reverse', 'ydrogen', 'board', 'sai']
 
-word = random.choice(words)   #random generator kr ta h yeh 
+word = random.choice(words)#random generator kr ta h yeh 
 
 print("Guess the characters")
-#guesses are limited change krna h toh  change the value og turns...
+
 guesses = ''
 turns = 12
 
@@ -35,7 +35,7 @@ while turns > 0:
 
     print()
     guess = input("guess a character:")
-
+#guesses are limited change krna h toh  change the value og turns...
     guesses += guess
 
     if guess not in word:
